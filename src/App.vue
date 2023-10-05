@@ -85,7 +85,10 @@
                   href="#_"
                   class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-indigo-600 rounded-md sm:mb-0 hover:bg-indigo-700 sm:w-auto"
                 >
-                  Try It Free
+                  <button id="install-button" style="display: none">
+                    Install the PWA App
+                  </button>
+
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="w-5 h-5 ml-1"

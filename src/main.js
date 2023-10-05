@@ -20,6 +20,7 @@ window.addEventListener("beforeinstallprompt", (event) => {
 
 // Function to show an install button
 function showInstallButton() {
+  console.log("Inside Installing Function");
   // Display a button or UI element that, when clicked, will trigger the installation
   const installButton = document.getElementById("install-button");
   installButton.style.display = "block";
