@@ -7,6 +7,8 @@ let deferredPrompt;
 
 // Listen for the beforeinstallprompt event
 window.addEventListener("beforeinstallprompt", (event) => {
+  console.log("beforeinstallprompt event triggered");
+
   // Prevent the browser's default install prompt
   event.preventDefault();
   // Store the event for later use
