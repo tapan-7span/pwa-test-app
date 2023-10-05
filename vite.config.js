@@ -20,6 +20,7 @@ export default defineConfig({
         name: "Vite PWA Test APP",
         short_name: "MyApp",
         description: "My Awesome App description",
+        display: "standalone",
         theme_color: "#ffffff",
         icons: [
           {
