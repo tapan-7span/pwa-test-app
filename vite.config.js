@@ -17,7 +17,7 @@ export default defineConfig({
         enabled: true,
       },
       manifest: {
-        name: "MovieLab",
+        name: "Vite PWA Test APP",
         short_name: "MyApp",
         description: "My Awesome App description",
         theme_color: "#ffffff",
